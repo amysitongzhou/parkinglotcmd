@@ -1,0 +1,7 @@
+{
+  "parking_space": 100,
+  "tax": 0.13,
+  "hourly_rate": 5,
+  "daily_rate": 20,
+  "monthly_permits": []
+}
