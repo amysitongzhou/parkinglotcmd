@@ -33,7 +33,7 @@ def write_json(file_path, name, value):
 
  #digital reciept
 def notification ():
-    sender_email = "zhoua9802@wrdsb.ca"
+    sender_email = "amyzhou1102iii@gmail.com"
 
     sender_password = ""
 
@@ -80,7 +80,7 @@ def checkPlate():
         else: 
             print ("The parking lot is full")
     except:
-          print (" An exception occurred in System configuratoin")
+          print (" An exception occurred in System configuration")
 
   
 def monthly_permit():
@@ -94,7 +94,7 @@ def monthly_permit():
         parking_info["monthly_permits"] = monthly_permits
         write_json ("C:\website\parkinglot\config.json", "monthly_permits",monthly_permits )
     except:
-        print ("The system occured the issue when updating the monthly permits information")
+        print ("The system encountered the issue when updating the monthly permits information")
 def save ():
     print ("It is here")
 
@@ -180,4 +180,5 @@ if __name__ == '__main__':
         daily_rate = parking_info.get("daily_rate")
         monthly_permits= parking_info.get("monthly_permits")
     main()
+
 
